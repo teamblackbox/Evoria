@@ -1,0 +1,140 @@
+Hello, this is rather awkward... You seem to have stumbled upon a game that can only be played
+on a terminal, which is typically reserved for developers who are just trying to practice
+writing code.
+
+You may be wondering... why create a game that's only able to be played on the command line,
+and one not even written in a faster language such as C++ that can allow more control options
+and better performance?
+
+Was the developer unskilled?
+
+Was the developer just lazy?
+
+Was the developer a dumbass?
+
+The answer to all of these questions would be a resounding...
+
+Yes.
+
+Yes, the developer is a dumbass.
+
+But apparently you are as well for starting the game in the first place, so go ahead and keep going.
+
+Or...
+
+You can end the game right now, and get a special reward for not playing it. A "special ending" for
+completionists, if you will.
+
+So go ahead... make your choice.
+    Choices:
+        1. "I want to continue!"
+        2. "I didn't launch the program to play the game anyway."
+    1:
+        Alright, I guess you can keep going.
+    2:
+        Oh, okay.
+
+        That's fine.
+
+        I totally didn't want you to continue playing the game anyway.
+
+        The game wasn't that fun to begin with...
+
+        Although... it would've been nice if you actually chose to play it without being egged on...
+
+        ...
+
+        You know what, screw you. You get to play the game anyway.
+Alright, so from your previous selection you decided to continue forward with the game.
+
+Before you can start playing, you need to either create a new character or import an old one. So,
+which one will it be?
+    Choices:
+        1. "I'm new..."
+        2. "I've made a character before."
+    1:
+        Cool, dude.
+
+        ...
+
+        ...
+
+        Oh, right... you have to create a character and stuff.
+
+        Let's get this started then. Are you a guy or a girl?
+            Choices:
+                1. "I'm a guy."
+                2. "I'm a girl."
+                Default:
+                    There's only two options for your sex in this game, because the game doesn't care about
+                    your feelings.
+        Nice.
+
+        What's your name?
+            Choices:
+                (You enter your name, with max 15 characters)
+            Default: (Only shown if nothing is entered) (Dialog changes are made if only numbers are entered)
+                I refuse to call you:
+
+                ()
+
+                Choose something else.
+        Neat.
+
+        ----------------------------------------------------------------------------------
+
+        Here's everything you've entered so far:
+
+        Name: (name)
+        Sex: (sex)
+        Style: (style)
+
+        Does this look correct?
+            Choices:
+                1. "Yep, looks fine."
+                2. "No, this doesn't look fine."
+                Default:
+                    I said... does this look fine?
+            1.
+                (continue)
+            2.
+                Alright, what do you want to change?
+                    Choices:
+                        1. "I got my name wrong because I'm an idiot."
+                        2. "I got my sex wrong because I'm an idiot."
+                        3. "I got my style wrong because I'm an idiot."
+                        Default:
+                            You have successfully chose "I'm an idiot". Now, try again.
+                    1.
+                        (change name)
+                    2.
+                        (change sex)
+                    3.
+                        (change style)
+                (loops back to checking if everything looks fine again)
+        Great. Now, let's start the game.
+    2.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

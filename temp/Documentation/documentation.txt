@@ -1,0 +1,151 @@
+RPG Game Technical Documentation
+
+1. World -
+    1. Environmental Structure:
+        1. Maps
+        2. Areas
+        3. Rooms
+    2. Tiles:
+        4. General info
+        5. Static v. Dynamic types
+        6. Static objects
+        7. Transition objects
+        8. Trigger objects
+        9. Vendor objects
+        10. Entities
+        11. Items*
+    3. Rendering:
+        12. Static layer
+        13. Dynamic layer
+        14. Entity layer
+        15. Fitting them together
+
+- 1. World --------------------------------------------------------------------
+
+1. Environmental Structure:
+
+    1. Map
+        Description:
+          Standalone packages that contain areas, quests and global values, such
+          as time and crop states.
+
+    2. Area
+        Description:
+          Contains rooms, the default color palettes and loot tables, as
+          well as the decoration logic (i.e. randomly generated rivers, scattered
+          rocks, etc.). Areas also contain the dialogue for
+          unique characters in quests and the events
+
+    3. Room
+        Description:
+          Contains the player environment. Rooms have
+
+2. Tiles:
+    4. General info
+
+    5. Static v. Dynamic types
+        Static type:
+          Usually created upon initialization and are not given any unique
+          identifier (as if you were to create a unique ID for every single
+          tile for every single room it would quickly build up on memory).
+          Once you leave the location, these usually reset.
+
+        Universal static variables:
+          
+
+        Dynamic type:
+          Usually rendered after the static objects are finished being
+          initialized. Dynamic objects are given a unique identifier that is
+          saved within memory/to a file to keep track of it's state. Most of
+          the time, the object will remain in memory or in a file until it
+          either despawns or is killed if it's a living entity.
+        
+        Universal dynamic variables:
+          
+
+    6. Static objects
+        Type: Static
+
+        Description:
+          Objects that are part of the environment and don't do anything.
+          This type of object is rendered first before anything else and is
+          unable to be altered after being initialized (hence the name
+          static object). Before being finalized, the object can be decorated
+          based upon the area/room it is in.
+
+        Variables:
+
+
+        Methods:
+
+          
+
+    7. Transition objects
+        Type: Static/Dynamic
+
+        Description:
+          Objects that are used to transition to other areas. There is a
+          transition object that needs to be created for every room or else
+          the player will not be able to access said room. While still a static
+          object type, the object is rendered during the dynamic phase of
+          rendering to allow for dynamic interaction.
+        
+        Variables:
+
+
+        Methods:
+
+
+    8. Trigger objects
+        Type: Static
+        
+        Description:
+          Objects that do something when you interact with them by default 
+          (i.e. a switch). Behavior is given by the dependent area.
+
+        Variables:
+
+
+        Methods:
+
+
+
+    9. Vendor objects
+        Type: Static/Dynamic
+
+        Description:
+          Objects that may have its own inventory (i.g. chest). This could
+          also include objects that contain an item and will automatically
+          give you the item upon interaction. These behave in the same
+          way as a trigger object.
+
+        Variables:
+
+
+        Methods:
+
+
+    10. Entities
+        Type: Dynamic
+
+        Description:
+          Objects that are kept in memory until they despawn or are killed.
+          Entities are able to move between rooms and areas, but not between
+          maps. The only exception to this would be the player.
+        
+        Variables:
+
+
+        Methods:
+
+          
+    11. Items*
+        Type: Dynamic
+
+        Description:
+          Objects that are dropped by a player or by an object that can be destroyed.
+
+        * = May not be implemented and may instead just create a vendor object that
+            disappears after being collected
+
+- 2. Player -------------------------------------------------------------------

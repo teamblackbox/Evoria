@@ -1,0 +1,117 @@
+equipment
+    weapons
+        melee
+            blades
+                sword
+                claymore
+                rapier
+                katana
+                machete
+                cutlass
+                shortblade
+                longblade
+                dagger
+                cleaver
+            blunt weapons
+                battle axe
+                war hammer
+                mace
+                hatchet
+                mallet
+                maul
+                club
+                spear
+                staff
+        ranged
+            bows
+                recurve bow
+                longbow
+                crossbow
+                compound bow
+            guns
+                handgun
+                rifle
+                shotgun
+                sniper rifle
+            launchers
+                slingshot
+                launcher
+            explosives
+    tools
+        tool repair kit
+        armor repair kit
+        magic repair kit
+        alchemy kit
+        medicine kit
+        cooking kit
+    ammunition
+        bow-type weapons
+            arrows
+            bolts
+        gun-type weapons <-- Will probably make ammunition more realistic for specific guns
+            rifle ammo
+            pistol ammo
+            shells
+apparel
+    clothing
+    armor
+        headwear
+        pauldrons
+        chestpieces
+        gauntlets
+        belts
+        legwear
+        boots
+    accessories
+        necklaces
+        rings
+        bracelets
+        anklets
+        bags
+            satchel
+            backpack
+food
+    foods
+        fruits
+        meats
+        cans
+        candies
+    beverages
+        alcohol
+        non-alcohol
+    drugs
+        medicine
+        recreationals
+magic items
+    potions
+        restores
+        buffs
+        weird stuff
+    poisons
+        reduces <-- please... find a better word for this
+        debuffs
+        weird stuff
+crafting
+    ingredients
+        food ingredients
+            spices
+            seasoning
+            teas
+        potion ingredients
+            (Enter potion ingredient types here)
+    materials
+        (Enter material types here)
+    junk
+        (You can't really categorize junk, can you?)
+media <-- rename this
+    notes
+        letters
+        memos
+        articles
+    books
+        paperback
+        hardcover
+others
+    currency <-- rename this
+    quest items
+    artifacts

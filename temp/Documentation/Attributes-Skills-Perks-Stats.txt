@@ -1,0 +1,63 @@
+Attributes
+    - Affects everything else
+    - Increased by doing stuff
+    - Decreases when you don't do stuff over time, moreso when you don't do something for long periods of time
+    - Can be increased temporarily,
+
+    Vitality --> Affects health, the ability to stay up past your sleep cycle as well as how you retain water and how long you can go without
+                 eating food
+    Endurance --> Affects how much fatigue is used by attacks and pretty much everything else, as well as your carry weight
+    Force --> Affects the ability to break through a block and the chance of pushing an enemy back
+    Speed --> Affects which person makes a move first and the
+    Physical resistance --> Affects the resistance to physical attacks and the ability to block
+    Poison resistance --> Affects the resistance to poisons/debuffs
+    Heat resistance --> Affects the resistance to heat-based attacks and the ability to maintain temperature in hot environments
+    Cold resistance --> Affects the resistance to cold-based attacks and the ability to maintain temperature in cold environments
+    Sight --> Affects the ability to land hits on enemies concealing themselves and view distance on the map
+    Accuracy --> Affects the ability to make accurate shots using ranged weapons and the chance to disarm an enemy
+    Focus --> Affects the ability to deal critical attacks and the ability to pick locks
+    Sobriety --> Affects the effectiveness of medkits and (obviously the most important reason) the ability to stay sober when using drugs or
+                 drinking alcohol
+    Deviation --> Affects the ability to escape during battle and to distact enemies
+    Mercantilism --> Affects the ability to haggle with vendors and the recieval of rewards from doing missions
+    Persuasion --> Affects the ability to persuade people when it comes to the law
+    Alchemy --> Affects the ability to craft potions
+    Chemistry --> Affects the ability to create medicinal items and their effectiveness
+    Enchantment --> Affects the ability to create magical items and enchant existing weapons as well as each of their effectiveness
+    Cuisine --> Affects the ability to create food items and their effectiveness
+    Weaponcraft --> Affects the ability to create melee weapons, their durability and their damage
+    Guncraft --> Affects the ability to create guns, their durability, their likelihood to jam, and their firing velocity
+    Armorcraft --> Affects the ability to create armor pieces, their durability and their protection
+    Jewelrycraft --> Affects the ability to create jewelry pieces, their durability, their enchantability and their resale value
+    Workability --> Affects the likelihood of being allowed to go on missions
+Vitals
+    - There is an amount of the particular vital and a max amount of the particular vital
+    - Obviously you cannot increase the amount beyond the max, unless it's temporary from a potion or something
+
+    Health <-- Affected by vitality and resistance. Used for, I dunno, staying alive. Your health goes to 0? YOU DIE IDIOT
+    Stamina <-- Affected by endurance and speed. Used for attacking/blocking. Reduced when you don't eat or drink, or when you eat or drink too much.
+    Fatigue <-- Affected by vitality and endurance. Used for taking damage/blocking and is reduced the longer you stay up past your sleep cycle
+                <!> Not shown in status bar, but shown during battle
+Level
+    - (Global) experince is used to level up
+    - (Global) experience is given when you do stuff, but I'm too lazy to list that stuff right now
+    - Every attribute has it's own level that you bring up by doing things that are governed by that attribute, and every time you bring up that
+      attribute a level, you bring up your (global) experience by a fraction based on your corruption level (by golf rules, the less you have the
+      better off you are. Once you reach like 80% corruption you can no longer level up)
+    - After each level, it takes more (global) experience in order to level up, starting with 50xp with levels 1-10 and doubling every ten levels
+    - You are able to use level points in order to get perks
+Corruption
+    - Given by enemies when they land hits and the prescence of miasma
+    - When the corruption level is high, you are more likely to have random outcomes in everything you do (like, literally everything, from
+      battles to movement to speech). Like, your actions quite literally become more and more random.
+    - You can reduce the meter by going to altars, which reduces the corruption meter to 0 (unless it's below 25%) and by using certain magic items
+    - Corruption is increased more in different areas, the light level, during different times of the day, and the phase of the moon
+    - Once it is full, you pretty much just lose the game as you become too unpredictable or something
+Perks
+    - I won't list them all here for now, because that's a ton of perks and stuff
+    - Basically, once you reach a certain level and have a certain attribute level, you get perks automatically. Once that
+      skill reduces after not being used for a while, the perk gradually reduces effectiveness
+Abilites
+    - Basically, allows you to do cool things I guess
+Records
+    - Records a log of everything you do, will eventually implement
